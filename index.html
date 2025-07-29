@@ -25,14 +25,11 @@
       font-family: 'Jua', sans-serif;
     }
 .container {
-    position: relative;
-  }
-    .heart {
-      position: absolute;
-      width: 60px;
-      height: 60px;
-      object-fit: contain;
-      z-index: 1;
+  position: relative;
+  max-width: 600px;    /* 최대 너비 제한 */
+  width: 100%;         /* 화면 좁아질 때 줄어들게 */
+  margin: 0 auto;      /* 좌우 중앙 정렬 */
+  padding: 0 10px;     /* 좌우 약간 여백 */
     }
     .heart.left1 {
       left: 30px;
@@ -339,7 +336,7 @@
   <p> </p>
   <p style="font-size: 21px;">엄청 많이 너무 대박 짱</p>
   <p> </p>
-  <p style="font-size: 70px;">♥️ 사랑해 ♥️</p>
+  <p style="font-size: 35px;">♥️ 사랑해 ♥️</p>
   <p> </p>
   <p> </p>
   <p> </p>
@@ -348,8 +345,8 @@
   <p> </p>
 <div style="display: flex; justify-content: center; gap: 5px; margin: 5px 0;">
      <div style="text-align: center;">
-         <img src="채린/KakaoTalk_20250729_081630371.jpg" alt="수범" style="width: 700px;" />
-         <div style="font-size: 50px; color: #555;">마지막으로 이걸 하는 내 모습😉</div>
+         <img src="채린/KakaoTalk_20250729_081630371.jpg" alt="수범" style="width: 200px;" />
+         <div style="font-size: 25px; color: #555;">마지막으로 이걸 하는 내 모습😉</div>
 </div>
 </div>
   <p> </p>
